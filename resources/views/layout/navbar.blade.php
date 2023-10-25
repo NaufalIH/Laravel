@@ -16,7 +16,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <a class="navbar-brand" href="/">PMGN</a>
+            <a class="navbar-brand" href="/">USSR</a>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link" href="/laporan">Laporan</a>
@@ -34,7 +34,7 @@
                 <a class="nav-link" href="/profil">Profil</a>
               </li>
             </ul>
-              <a href="#"><button class="btn btn-success me-3" type="submit">Login</button></a>
+              <a href="/login"><button class="btn btn-success me-3" type="submit">Login</button></a>
               <a href="/register"><button class="btn btn-success" type="submit">Register</button></a>
           </div>
         </div>

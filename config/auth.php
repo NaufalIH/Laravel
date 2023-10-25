@@ -41,6 +41,13 @@ return [
             'provider' => 'users',
         ],
     ],
+    
+    'petugas' => [
+        'web' => [
+            'driver' => 'session',
+            'provider' => 'petugas',
+        ],
+    ],
 
     /*
     |--------------------------------------------------------------------------
@@ -64,6 +71,11 @@ return [
             'driver' => 'eloquent',
             'model' => App\Models\User::class,
         ],
+        'petugas' => [
+            'users' => [
+                'driver' => 'eloquent',
+                'model' => App\Models\petugas::class,
+            ],
 
         // 'users' => [
         //     'driver' => 'database',
@@ -111,5 +123,5 @@ return [
     */
 
     'password_timeout' => 10800,
-
+    ]
 ];

@@ -5,11 +5,19 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Pengaduan extends Model
+class pengaduan extends Model
 {
     use HasFactory;
-    public $timestameps = false;
+    public $timestamps = false;
     protected $table = "pengaduan";
+    
+    protected $fillable = ['tgl_pengaduan','nik','isi_laporan','foto','status'];
 
-    protected $fillable = [];
+    // "tgl_pengaduan" => date(),
+    // "nik" => 
+    // "isi_laporan" => 
+    // "foto" => 
+    // "status" => 
+
+
 }
